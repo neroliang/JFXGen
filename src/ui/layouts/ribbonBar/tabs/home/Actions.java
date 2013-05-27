@@ -17,7 +17,7 @@ import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import jpadfx.Alert;
+
 
 /**
  * Tables. This class represents the Actions Ribbon Bar Component.
@@ -153,7 +153,7 @@ public class Actions {
             @Override
             public void handle(Event event) {
                 System.out.println("New Order Button clicked.");
-                doNew();   
+                //doNew();   
             }
      
         });
